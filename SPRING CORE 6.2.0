@@ -4,3 +4,28 @@
     <artifactId>spring-core</artifactId>
     <version>6.2.11</version>
 </dependency>
+
+
+// https://mvnrepository.com/artifact/org.springframework/spring-core
+implementation("org.springframework:spring-core:6.2.11")
+
+// https://mvnrepository.com/artifact/org.springframework/spring-core
+libraryDependencies += "org.springframework" % "spring-core" % "6.2.11"
+
+// https://mvnrepository.com/artifact/org.springframework/spring-core
+ivy"org.springframework:spring-core:6.2.11"
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency org="org.springframework" name="spring-core" rev="6.2.11"/>
+
+
+// https://mvnrepository.com/artifact/org.springframework/spring-core
+@Grapes(
+    @Grab(group='org.springframework', module='spring-core', version='6.2.11')
+)
+;; https://mvnrepository.com/artifact/org.springframework/spring-core
+[org.springframework/spring-core "6.2.11"]
+
+# https://mvnrepository.com/artifact/org.springframework/spring-core
+'org.springframework:spring-core:jar:6.2.11'
+
