@@ -4,3 +4,26 @@
     <artifactId>spring-beans</artifactId>
     <version>6.2.11</version>
 </dependency>
+
+
+# https://mvnrepository.com/artifact/org.springframework/spring-beans
+'org.springframework:spring-beans:jar:6.2.11'
+
+// https://mvnrepository.com/artifact/org.springframework/spring-beans
+libraryDependencies += "org.springframework" % "spring-beans" % "6.2.11"
+
+// https://mvnrepository.com/artifact/org.springframework/spring-beans
+ivy"org.springframework:spring-beans:6.2.11"
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+<dependency org="org.springframework" name="spring-beans" rev="6.2.11"/>
+
+// https://mvnrepository.com/artifact/org.springframework/spring-beans
+@Grapes(
+    @Grab(group='org.springframework', module='spring-beans', version='6.2.11')
+)
+;; https://mvnrepository.com/artifact/org.springframework/spring-beans
+[org.springframework/spring-beans "6.2.11"]
+
+# https://mvnrepository.com/artifact/org.springframework/spring-beans
+'org.springframework:spring-beans:jar:6.2.11'
