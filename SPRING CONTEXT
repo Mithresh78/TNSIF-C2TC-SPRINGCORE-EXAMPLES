@@ -1,0 +1,35 @@
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>6.2.11</version>
+</dependency>
+
+// https://mvnrepository.com/artifact/org.springframework/spring-context
+implementation("org.springframework:spring-context:6.2.11")
+
+// https://mvnrepository.com/artifact/org.springframework/spring-context
+libraryDependencies += "org.springframework" % "spring-context" % "6.2.11"
+
+// https://mvnrepository.com/artifact/org.springframework/spring-context
+ivy"org.springframework:spring-context:6.2.11"
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency org="org.springframework" name="spring-context" rev="6.2.11"/>
+
+// https://mvnrepository.com/artifact/org.springframework/spring-context
+@Grapes(
+    @Grab(group='org.springframework', module='spring-context', version='6.2.11')
+)
+
+// https://mvnrepository.com/artifact/org.springframework/spring-context
+@Grapes(
+    @Grab(group='org.springframework', module='spring-context', version='6.2.11')
+)
+;; https://mvnrepository.com/artifact/org.springframework/spring-context
+[org.springframework/spring-context "6.2.11"]
+
+
+# https://mvnrepository.com/artifact/org.springframework/spring-context
+'org.springframework:spring-context:jar:6.2.11'
+
